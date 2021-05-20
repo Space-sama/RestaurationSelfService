@@ -1,0 +1,130 @@
+@charset "ISO-8859-1";
+
+
+	#card{
+  			margin: 20px;
+  			
+  		
+  		}
+  		
+  		#btn-Ajouter {
+  			margin: 20px;
+  			color: white;
+  			background-color: black;
+  			border: 1px solid darkgrey;
+  			width: 140px;
+  		}
+  		
+  		#btn-Ajouter:hover {
+  			color: black;
+  			background-color: white;
+  			
+  		}
+  		
+  		#key{
+  			width: 360px;
+  		}
+  		
+  		#inputSearch{
+  			width: 320px;
+  		}
+  		
+  		.img{
+  			border: 2px solid grey;
+  			border-radius: 2%;
+  		}
+  		
+  		
+  		
+  		.prix, .titre {
+  			color: #4F093A;
+  			
+  		}
+  		
+  		.arrow {
+  			font-size: 21px;
+  			font-weight: bolder;
+  			color: orange;
+  		}
+  		
+  		
+  		#ch{
+  			background-color: #FCF7CF;
+  		}
+  		
+  		
+  		
+  		
+  	.admin_name{
+		color: #C8DEDC;
+		font-weight: 500;
+		font-family: cursive;
+		font-size: 30px;
+		}
+
+
+#bonjour{
+	border: 2px solid #C8DEDC;
+	border-radius: 60px;
+	text-align: center;
+	margin: 10px;
+	padding: 7px;
+	margin-left: 250px;
+	background-color: #5A6969;
+	
+	
+}
+.bm{
+	color: white;
+}
+
+
+
+
+/*  Confirmation la modification */
+
+#con {
+	
+	margin: 0 auto;
+	width: 700px;
+	display: flex;
+	justify-content: space-between;
+	
+	}
+	
+	#btn-dishe {
+		width: 150px;
+		
+	}
+	
+	#btn-dishe1{
+		width: 150px;
+		
+	}
+
+/*  Ajout */
+
+  		
+  		 #form{
+  		 
+  			width: 650px;
+  			margin-left: 190px;
+  			
+  		}
+  		
+  		#add{
+  			width: 150px;
+  		}
+  		
+  		/*
+  		
+  		#Nom, #Desc, #prixPlat, #img{
+  			border: 2px solid #474120;
+  			border-left-width: 5px;
+  			border-right-width: 5px;
+  			background-color: #B3554F;
+  			color: #474120;
+  			font-weight: bolder;
+  			font-size: 18px;
+  		}
+		 */

@@ -1,0 +1,55 @@
+.myshadow{
+  box-shadow: black 2px 2px;
+}
+.myborder{
+  border-style: solid;
+  border-color:grey;
+  border-radius: 8px;
+  
+}
+.border-r{
+	border-radius: 20px;
+}
+
+.fontCentury{
+    font-family: 'Century Gothic';
+  }
+
+.text-shadow{
+  color:orange;
+  font-size: 2.3rem;
+  font-family: 'Century gothic';
+  font-weight: bold;
+  text-shadow: rgba(64, 212, 57, 0.493) 1px 0.5px;
+}
+.bg-maroon{
+	background-color: maroon;
+}
+.btn-default{
+	border:thin groove;
+	border-style: solid;
+  	border-color:black;
+  	border-radius: 10px;
+  	background-color: menu;
+  	height:40px;
+	
+	 
+}
+.mycard{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.card-bg-gold{
+	background-image: radial-gradient(circle at 100% 0%,white,yellow,gold);
+}
+.card-bg-green{
+	background-image: radial-gradient(circle at 100% 0%,#F2881D 46%,#EFEFD2,white 95%);
+}
+.card-bg-red{
+	background-image: radial-gradient(circle at 100% 0%,white 10%,fuchsia,purple 70%);
+}
+.t-bold{
+	font-weight: 600;
+}

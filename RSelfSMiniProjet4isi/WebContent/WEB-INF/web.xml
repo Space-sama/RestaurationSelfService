@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>RSelfSMiniProjet4isi</display-name>
+  <servlet>
+  	<servlet-name>cs</servlet-name>
+  	<servlet-class>com.samaspace.web.PlatsController</servlet-class>
+  	<multipart-config>
+  		<location>C:\Users\MYWORLD\eclipse-workspace\RSelfSMiniProjet4isi\WebContent\</location>
+  		<max-file-size>10756434</max-file-size>
+  		<max-request-size>52876546</max-request-size>
+  		<file-size-threshold>1098767</file-size-threshold>
+  	</multipart-config>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>cs</servlet-name>
+  	<url-pattern>*.io</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>cs1</servlet-name>
+  	<servlet-class>com.samaspace.web.Auth</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>cs1</servlet-name>
+  	<url-pattern>/Auth</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>cs2</servlet-name>
+  	<servlet-class>com.samaspace.web.BoissonsController</servlet-class>
+  	<multipart-config>
+  		<location>C:\Users\MYWORLD\eclipse-workspace\RSelfSMiniProjet4isi\WebContent\</location>
+  		<max-file-size>10756434</max-file-size>
+  		<max-request-size>52876546</max-request-size>
+  		<file-size-threshold>1098767</file-size-threshold>
+  	</multipart-config>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>cs2</servlet-name>
+  	<url-pattern>*.net</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>cs3</servlet-name>
+  	<servlet-class>com.samaspace.web.DessertsController</servlet-class>
+  	<multipart-config>
+  		<location>C:\Users\MYWORLD\eclipse-workspace\RSelfSMiniProjet4isi\WebContent\</location>
+  		<max-file-size>10756434</max-file-size>
+  		<max-request-size>52876546</max-request-size>
+  		<file-size-threshold>1098767</file-size-threshold>
+  	</multipart-config>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>cs3</servlet-name>
+  	<url-pattern>*.php</url-pattern>
+  </servlet-mapping>
+  
+  
+  <session-config>
+  	<session-timeout>200</session-timeout>
+  </session-config>
+  
+  
+  
+  <error-page>  
+  <exception-type>javax.servlet.ServletException</exception-type>  
+    <location>/error.io</location>  
+  </error-page>
+  <error-page>
+  <exception-type>java.lang.Exception</exception-type>  
+    <location>/error.io</location>  
+  </error-page>
+  <error-page>
+    <error-code>400</error-code>
+    <location>/error.io</location>
+  </error-page> 
+  <error-page>
+    <error-code>404</error-code>
+    <location>/error.io</location>
+  </error-page> 
+  <error-page>
+    <error-code>500</error-code>
+    <location>/error.io</location>
+  </error-page>
+  
+  <error-page>
+    <error-code>503</error-code>
+    <location>/error.io</location>
+  </error-page>
+  
+  
+  
+  
+</web-app>
